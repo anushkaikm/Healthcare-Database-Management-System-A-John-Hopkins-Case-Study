@@ -10,14 +10,28 @@ Our area of focus is on patient care and pharmacy operations. In Patient Care, w
 
 This project's objective is to design and implement a comprehensive database management system that streamlines patient care and pharmacy operations. The database will facilitate efficient management of patients, medical records, billing, insurance, pharmacy transactions, and more. By working on a Healthcare Management System project, we can gain exposure to a critical practical, real-world application. Additionally, working with pharmacies provides us access to diverse pharmacy workflows, patient populations, and clinical settings, allowing us to design a comprehensive and realistic database solution. Moreover, the project will involve creating a set of SQL queries to build tables, load data, and perform essential data retrieval tasks, thereby providing a practical and scalable solution to the hospital's data management needs.
 
-## Features
+## Entities
 
-- **Patient Management**: Efficient tracking and management of patient information, including personal details, medical records, and treatment history.
-- **Medical Records**: Secure and organized storage of medical records accessible by authorized personnel.
-- **Department Management**: Organization and management of various hospital departments.
-- **Employee Management**: Management of employee information, including physicians, nurses, and administrative staff.
-- **Billing & Insurance**: Streamlined billing and insurance processing to ensure timely and accurate payments.
-- **Pharmacy Operations**: Comprehensive management of pharmacy operations, including medication inventory, prescriptions, and transactions.
+The database includes the following entities:
+
+- **Patients**: Information about patients, including personal details and medical history.
+- **Medical Records**: Detailed records of patient diagnoses, treatments, and outcomes.
+- **Departments**: Various hospital departments and their details.
+- **Employees**: Information about hospital staff, including physicians, nurses, and administrative personnel.
+- **Physicians & Nurses**: Specific details about medical professionals, including specialties and schedules.
+- **Billing & Insurance**: Information related to patient billing and insurance claims.
+- **Medicine**: Details about medications available in the hospital.
+- **Prescriptions**: Records of prescriptions issued to patients.
+- **Inventory**: Management of medication and medical supplies inventory.
+- **Transactions**: Financial transactions related to pharmacy operations and patient billing.
+
+## EER Diagram
+
+The Enhanced Entity-Relationship (EER) diagram visualizes the entities, attributes, and relationships in the database. It provides a clear representation of how different entities are connected and organized within the system.
+
+## 3NF Relational Model
+
+The Third Normal Form (3NF) relational model ensures that the database is structured to minimize redundancy and improve data integrity. It involves organizing data into tables with each table focusing on a specific entity or relationship, adhering to normalization principles.
 
 ## Getting Started
 
@@ -33,12 +47,6 @@ To run the project, you will need the following:
 2. Run the SQL scripts provided in the `scripts/` directory to create the database schema and populate the tables with sample data.
 3. Use the provided SQL queries to perform data retrieval and management tasks.
 
-## Usage
-
-- **Creating Tables**: Use the SQL scripts in the `scripts/create_tables.sql` file to create the necessary tables for the database.
-- **Loading Data**: Load sample data into the database using the scripts in the `scripts/load_data.sql` file.
-- **Data Retrieval**: Perform essential data retrieval tasks using the queries in the `scripts/queries.sql` file.
-
 ## Results
 
 The results of the project will be documented in the SQL scripts and any accompanying reports or analysis files.
@@ -46,4 +54,3 @@ The results of the project will be documented in the SQL scripts and any accompa
 ## Acknowledgments
 
 Special thanks to the Johns Hopkins Hospital for setting the standards in healthcare and providing the inspiration for this project.
-
